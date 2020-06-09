@@ -29,7 +29,7 @@ public class ValuteCursController {
     }
 
 
-    @GetMapping("/g")
+    @GetMapping("/main")
     public void getAll() throws Exception {
         valuteCursService.saveAll();
     }
